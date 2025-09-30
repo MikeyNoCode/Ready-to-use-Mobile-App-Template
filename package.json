@@ -1,0 +1,57 @@
+{
+  "name": "ready-to-use-mobile-app-template",
+  "version": "1.0.0",
+  "description": "A clean, ready-to-use React Native mobile app template built with Expo SDK 54",
+  "main": "node_modules/expo/AppEntry.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeyNoCode/Ready-to-use-Mobile-App-Template.git"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "template",
+    "mobile-app"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "clean": "rm -rf node_modules && npm install",
+    "reset": "watchman watch-del-all && rm -rf node_modules && npm cache clean --force && npm install"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/bottom-tabs": "^7.4.7",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.1.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "expo": "~54.0.0",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "~14.1.0",
+    "react-native-purchases": "^7.2.0",
+    "expo-constants": "~15.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@expo/metro-config": "~54.0.2",
+    "babel-preset-expo": "~54.0.0"
+  },
+  "private": true,
+  "packageManager": "npm@10.2.4",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "resolutions": {
+    "@types/react": "^18.2.45",
+    "@types/react-native": "~0.73.0"
+  }
+}

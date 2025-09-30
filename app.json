@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Ready to use Mobile App Template",
+    "slug": "ready-to-use-mobile-app-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourapp.ready-to-use-template",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourapp.ready_to_use_template",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./icon.png"
+    },
+    "plugins": [
+      [
+        "react-native-purchases",
+        {
+          "mode": "USER_SELECTION",
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ]
+  }
+}
